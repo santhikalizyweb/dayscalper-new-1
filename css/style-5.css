@@ -1,0 +1,236 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+/**/
+.navbar-nav .nav-link {
+    color: white !important; /* Ensures all links are white */
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  rgb(0, 95, 0) !important; /* Changes color on hover */
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the menu (toggler) button white */
+}
+/**/
+
+
+/**/
+    .mission-content h3 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+        font-size: 2rem;
+        color: #2c3e50;
+    }
+
+    .astanga_text {
+        font-size: 1.1rem;
+        color: #444;
+        line-height: 1.6;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-img img {
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .about-img img:hover {
+        transform: scale(1.03);
+    }
+
+    .primary-btn {
+        background:  rgb(0, 95, 0);;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 5px 5px 15px rgba(187, 255, 0, 0.6);
+    }
+
+    .primary-btn:hover {
+        /* background: #f46404; */
+        box-shadow: 5px 5px 15px rgba(187, 255, 0, 0.6);
+    }
+/***/
+.section-title h1 {
+        /* Adjust size as needed */
+        /* font-weight: bold; */
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        display: inline-block;
+        border-radius: 5px;
+    }
+/**/
+/**need more help*/
+.bg-offer {
+    background: linear-gradient(135deg, #000000 30%, #1a1a1a 100%);
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+}
+
+/* Section Title */
+.section-title h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Heading Style */
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Button Styling */
+.custom-btn {
+    background: rgb(0, 95, 0);;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.custom-btn:hover {
+    background: rgb(0, 95, 0);;
+    transform: translateY(-3px);
+}
+/*need more help**/
+
+/**contact*/
+.contact-section {
+    background: url('img/image-2/contact.jpg') no-repeat center center/cover; 
+    padding: 80px 0;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Light transparency for better visibility */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-container {
+    /* background: white; */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.contact-box {
+    /* background: rgba(255, 255, 255, 0.9);  */
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    /* border: 1px solid #ddd; */
+}
+
+/* Map Section */
+.map-container {
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px; /* Increased height */
+    border-radius: 10px;
+}
+
+/* Center Align Heading */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.contact-heading {
+    color:  rgb(0, 95, 0); /* Sets only "Contact Us" to orange */
+}
+
+/**/
+
+.facilities_area {
+    background: linear-gradient(rgba(16, 16, 16, 0.8),), 
+                url("../img/image-2/img2.jpg") no-repeat fixed center/cover;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+  }
+  
+ /* Facility Box Styling */
+.facilities_item {
+    height: 100%;
+    border-radius: 12px;
+    background: black; /* Set card background to black */
+    padding: 35px;
+    color: white; /* Set text color to white */
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+/* Hover Effect */
+.facilities_item:hover {
+    transform: translateY(-10px);
+    /* box-shadow: 0px 12px 30px rgba(0, 255, 0, 0.5); Green shadow effect */
+    background:  rgb(0, 95, 0);; /* Background changes to green on hover */
+    color: white; /* Ensure text remains white */
+}
+
+/* Heading Style */
+.facilities_item .sec_h4 {    
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+}
+
+/* Icon Style */
+.facilities_item .sec_h4 i {
+    color: #f3c300;
+    font-size: 26px;
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Icon Hover Animation */
+.facilities_item:hover .sec_h4 i {
+    transform: rotate(360deg);
+    color: white; /* Change icon color to white on hover */
+}
+
+/* Paragraph Style */
+.facilities_item p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
